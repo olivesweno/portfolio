@@ -6,12 +6,48 @@
     <body>
     <main>
         <header>
-
+            <h1>My Contact Details</h1>
         </header>
-        <section></section>
-        <footer>
+        <section>
+            <p>These are my contact details. <br>
+                Mobile - +44 7575 494844 <br>
+                Email - oliverorangee@gmail.com
+            </p>
+        </section>
 
-        </footer>
+<form>
+    <fieldset>
+        <legend>Your details</legend>
+
+        <label for="fullname">Full Name</label>
+        <input id="fullname" type="text">
+        <br>
+        <label for="email">Email Address</label>
+        <input id="email" type="text">
+        <br>
+        <label for="phone">Phone Number</label>
+        <input id="phone" type="text">
+    </fieldset>
+</form>
+
+<h4>Reason for calling</h4>
+<select name="reason">
+    <option value="business" selected>Business/work</option>
+    <option value="friend">Friend</option>
+    <option value="family">Family</option>
+</select>
+<br>
+<form>
+    <fieldset>
+        <legend>Contact reasons</legend>
+        
+        <label for="custom">(Custom) What reason are you contacting?</label>
+        <textarea id="custom"></textarea>
+<br>
+    </fieldset>
+</form>
+
+        <footer>2023, created by Oliver.</footer>
     </main>
     </body>
 </html>
